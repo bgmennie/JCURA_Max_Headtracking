@@ -4,12 +4,14 @@ Use this patch with the GyrOSC app for iOS to visualize head rotations and send 
 This was used in a research paper to send values to Unity for in-game head tracking:
 https://www.researchgate.net/publication/370864719_Creating_a_Low-Cost_Reproducible_Virtual_Mixing_Environment
 
+
 Instructions:
 1. Install the GyrOSC app for iOS from the app store on the headtracking phone
 2. In GyrOSC, select the icon at the bottom left, and enter the IP address for the target computer running Max and an unused port (default for the patch is 8500)
 3. In GyrOSC, select the icon at the middle left, and ensure that the Gyroscope switch is enabled, and the Frequency is set to 120
 4. Mount the headtracking to the top of a pair of headphones with the charging port facing BACKWARDS
 5. Open the patch using MaxMSP. The gyro values should be reflected in the number boxes and head images.
+
 
 Troubleshooting:
 1. Ensure that the phone and laptop are both connected to the same network
