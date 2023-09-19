@@ -1,4 +1,4 @@
-JCURA_Max_Headtracking
+**JCURA_Max_Headtracking**
 
 Use this patch with the GyrOSC app for iOS to visualize head rotations and send OSC via UDP. 
 This was used in a research paper to send values to Unity for in-game head tracking:
