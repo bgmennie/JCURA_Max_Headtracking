@@ -88,36 +88,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.211926341056824, 406.204721927642822, 86.0, 22.0 ],
-					"text" : "round 0.00001"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.0, 740.0, 39.0, 22.0 ],
-					"text" : "round"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-96",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 618.417250037193298, 798.0, 176.0, 34.0 ],
+					"patching_rect" : [ 618.417250037193298, 848.0, 176.0, 34.0 ],
 					"text" : "This send the zeroed outputs to the oscExt used by Unity"
 				}
 
@@ -129,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 445.146146893501282, 682.0, 58.0, 22.0 ],
+					"patching_rect" : [ 445.146146893501282, 732.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -141,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.146146893501282, 882.0, 313.422096371650696, 22.0 ],
+					"patching_rect" : [ 445.146146893501282, 932.0, 313.422096371650696, 22.0 ],
 					"text" : "/gyrosc/GyrOSC/gyro 0.28838 -0.1476 0.0725"
 				}
 
@@ -153,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.146146893501282, 723.0, 123.0, 22.0 ],
+					"patching_rect" : [ 445.146146893501282, 773.0, 123.0, 22.0 ],
 					"text" : "/gyrosc/GyrOSC/gyro"
 				}
 
@@ -165,7 +141,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.146146893501282, 841.0, 123.0, 22.0 ],
+					"patching_rect" : [ 445.146146893501282, 891.0, 123.0, 22.0 ],
 					"text" : "join 4 @triggers 1 2 3"
 				}
 
@@ -177,7 +153,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 549.146146893501282, 810.0, 37.0, 22.0 ],
+					"patching_rect" : [ 549.146146893501282, 860.0, 37.0, 22.0 ],
 					"text" : "r yaw"
 				}
 
@@ -189,7 +165,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 514.479480226834653, 781.0, 32.0, 22.0 ],
+					"patching_rect" : [ 514.479480226834653, 831.0, 32.0, 22.0 ],
 					"text" : "r roll"
 				}
 
@@ -201,7 +177,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.812813560167967, 754.0, 41.0, 22.0 ],
+					"patching_rect" : [ 479.812813560167967, 804.0, 41.0, 22.0 ],
 					"text" : "r pitch"
 				}
 
@@ -886,7 +862,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.211926341056824, 358.779847992659143, 110.176995992660522, 20.0 ],
+					"patching_rect" : [ 523.211926341056824, 655.779847992659143, 110.176995992660522, 20.0 ],
 					"text" : "Outputs are +/- pi "
 				}
 
@@ -1263,7 +1239,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.146146893501282, 923.955481767654419, 158.0, 22.0 ],
+					"patching_rect" : [ 445.146146893501282, 973.955481767654419, 158.0, 22.0 ],
 					"text" : "udpsend 192.168.56.1 9999"
 				}
 
@@ -1915,7 +1891,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 1 ],
-					"midpoints" : [ 454.646146893501282, 872.0, 749.068243265151978, 872.0 ],
+					"midpoints" : [ 454.646146893501282, 922.0, 749.068243265151978, 922.0 ],
 					"order" : 0,
 					"source" : [ "obj-66", 0 ]
 				}
