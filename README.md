@@ -21,4 +21,5 @@ Troubleshooting:
 	3.3. Use the IPv4 Address
 4. Ensure that GyrOSC is sending gyroscope data (step 3 in the instructions)
 
-![Uploading image.png…]()
+
+![Headtracking Max Patch](https://github.com/bgmennie/JCURA_Max_Headtracking/assets/33833740/6cff3e92-0aac-4b6e-9a48-7938c3bc9791)
