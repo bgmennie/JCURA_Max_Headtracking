@@ -1,4 +1,4 @@
-Headtracking trouble shooting:
+Headtracking troubleshooting:
 1. Ensure that GyrOSC is sending gyroscope data
 2. Ensure GyrOSC is sending to the correct port
 3. Ensure GyrOSC is sending to the correct target IP Address 
