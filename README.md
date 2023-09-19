@@ -20,3 +20,5 @@ Troubleshooting:
 	3.2. Type "ipconfig"
 	3.3. Use the IPv4 Address
 4. Ensure that GyrOSC is sending gyroscope data (step 3 in the instructions)
+
+![Uploading image.png…]()
