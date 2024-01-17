@@ -8,9 +8,9 @@ https://www.researchgate.net/publication/370864719_Creating_a_Low-Cost_Reproduci
 Instructions:
 1. Install the GyrOSC app for iOS from the app store on the headtracking phone
 2. In GyrOSC, select the icon at the bottom left, and enter the IP address for the target computer running Max and an unused port (default for the patch is 8500)
-3. In GyrOSC, select the icon at the middle left, and ensure that the Gyroscope switch is enabled, and the Frequency is set to 120
-4. Mount the headtracking to the top of a pair of headphones with the charging port facing BACKWARDS
-5. Open the patch using MaxMSP. The gyro values should be reflected in the number boxes and head images.
+3. In GyrOSC, select the icon at the middle left and ensure that the Gyroscope switch is enabled, and the Frequency is set to 120
+4. Mount the headtracking phone to the top of a pair of headphones with the charging port facing BACKWARDS
+5. Open the patch using MaxMSP. The gyro values should be reflected both in the number boxes and the rotation of the head images.
 
 
 Troubleshooting:
